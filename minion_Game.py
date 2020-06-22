@@ -12,7 +12,6 @@ for i in range(len(str)):
   if str[i] not in vowels:
     conso=str[i:]
     break    
-print(vo,conso)
 temp=vo
 for i in range(len(temp)):
   if vo[i] in vowels:
